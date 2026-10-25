@@ -1,0 +1,17 @@
+# Python bytecode and test artefacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Local editor settings
+.vscode/
+.idea/
+
+# Local project guidance (not part of the portfolio)
+00_AGENT.md
+00_AGENTS.md
+01_security-fundamentals.md
