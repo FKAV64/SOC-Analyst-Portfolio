@@ -13,7 +13,7 @@ Stage 1 is implemented and ready for test verification.
 | [tools/subnet_calc.py](tools/subnet_calc.py) | CIDR, network addresses, broadcast addresses, and host ranges | Implemented |
 | [tools/hash_demo.py](tools/hash_demo.py) | Hashing, salting, and the avalanche effect | Implemented |
 | [tools/caesar_cipher.py](tools/caesar_cipher.py) | Substitution ciphers and frequency analysis | Implemented |
-| `tools/password_checker.py` | Password entropy and common-password checks | Planned |
+| [tools/password_checker.py](tools/password_checker.py) | Password entropy and common-password checks | Implemented |
 | `tools/port_scanner.py` | TCP connection scanning and defensive log visibility | Planned |
 
 ## Setup and test
