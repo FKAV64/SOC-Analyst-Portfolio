@@ -1,9 +1,9 @@
 """
 Ports: A port is a door through which any application in a computer uses to communicate on a network. A single computer has up to 65535 ports, some of which are specific to some protocols (like SSH 22, HTTPS 443) and the remaining are available to any application.
 
-Port Scanner & TCP 3-Way Handshake: A port scanner is one which looks for listening ports. To do this, it uses the TCP 3-Way Handshake (SYN, SYN-ACK, ACK) process. The port scanner sends a SYN to all 65535 ports.
+Port Scanner & TCP 3-Way Handshake: A port scanner is one which looks for listening ports. To do this, it uses the TCP 3-Way Handshake (SYN, SYN-ACK, ACK) process. The port scanner will not implement the full handshake, just SYN and SYN-ACK(half-open/SYN scan) then will voluntarily drop the connection with the server.
 
-Port States: If a port is open, it will reply with a SYN-ACK indicating an application is listening at that particular port. If a port is closed, it will respond with a reset packet (RST) indicating no application is listening on that port. If we receive no response from the server, it indicates a firewall is standing in front of the server, silently dropping the SYN sent by the port scanner
+Port States: The port scanner sends a SYN packet to the server. If a port is open, The server replies with a SYN-ACK indicating an application is listening at that particular port. If a port is closed, it  responds with a reset packet (RST) indicating no application is listening on that port. If we receive no response from the server, it indicates a firewall is standing in front of the server, silently dropping the SYN sent by the port scanner
 
 Important Definations for the port scanner implementation
 1. A private address(10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16) is use for Local Area Network.
