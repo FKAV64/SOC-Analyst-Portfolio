@@ -4,13 +4,13 @@ Small Python scripts for turning Security+ concepts into practical exercises.
 
 ## Scripts
 
-| Script | What it teaches | Security+ Domain |
+| Script | What it teaches | Security+ SY0-701 Domain |
 | --- | --- | --- |
-| [tools/subnet_calc.py](tools/subnet_calc.py) | CIDR, network addresses, broadcast addresses, host ranges | Network Security (Domain 3) |
-| [tools/hash_demo.py](tools/hash_demo.py) | Hashing, salting, avalanche effect | Cryptography & PKI (Domain 6) |
-| [tools/caesar_cipher.py](tools/caesar_cipher.py) | Substitution ciphers, frequency analysis | Cryptography & PKI (Domain 6) |
-| [tools/password_checker.py](tools/password_checker.py) | Password entropy, common-password checks | Identity & Access Management (Domain 4) |
-| [tools/port_scanner.py](tools/port_scanner.py) | TCP three-way handshake, port states, defensive log visibility | Network Security (Domain 3) |
+| [tools/subnet_calc.py](tools/subnet_calc.py) | CIDR, network addresses, broadcast addresses, host ranges | Domain 3: Security Architecture |
+| [tools/hash_demo.py](tools/hash_demo.py) | Hashing, salting, avalanche effect | Domain 1: General Security Concepts |
+| [tools/caesar_cipher.py](tools/caesar_cipher.py) | Substitution ciphers, frequency analysis | Domain 1: General Security Concepts |
+| [tools/password_checker.py](tools/password_checker.py) | Password entropy, common-password checks | Domain 2: Threats, Vulnerabilities, and Mitigations |
+| [tools/port_scanner.py](tools/port_scanner.py) | TCP three-way handshake, port states, defensive log visibility | Domain 4: Security Operations |
 
 ## Setup and test
 
