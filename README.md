@@ -5,7 +5,7 @@ Small Python scripts for turning Security+ concepts into practical exercises.
 ## Scripts
 
 | Script | What it teaches | Security+ Domain |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | [tools/subnet_calc.py](tools/subnet_calc.py) | CIDR, network addresses, broadcast addresses, host ranges | Network Security (Domain 3) |
 | [tools/hash_demo.py](tools/hash_demo.py) | Hashing, salting, avalanche effect | Cryptography & PKI (Domain 6) |
 | [tools/caesar_cipher.py](tools/caesar_cipher.py) | Substitution ciphers, frequency analysis | Cryptography & PKI (Domain 6) |
