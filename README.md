@@ -24,7 +24,7 @@ My security work is offensive-informed and defensive-focused: understanding how 
 | # | Project | What it builds | Status |
 | --- | --- | --- | --- |
 | 1 | [security-fundamentals](security-fundamentals/) | Python tools making Security+ concepts concrete: subnetting, hashing, ciphers, password entropy, TCP port scanning. Each script opens with a theory block written in my own words. | Active |
-| 2 | security-log-analyzer | Parse `auth.log`, detect SSH brute force, password spraying and success-after-failure, output a severity report. | Planned — Oct 2026 |
+| 2 | [security-log-analyzer](security-log-analyzer/) | Parse `auth.log`, detect SSH brute force, password spraying and success-after-failure, output a severity report. | Active |
 | 3 | phishing-email-analyzer | Parse `.eml` files, score phishing indicators (header mismatches, SPF/DKIM failures, lookalike domains), output a defanged IOC table. | Planned — Feb 2027 |
 | 4 | ioc-enrichment-cli | Query free-tier threat-intel APIs (AbuseIPDB, VirusTotal), cache results in SQLite, output a multi-source verdict report. | Planned — Mar 2027 |
 | 5 | wazuh-detection-lab | Home SIEM lab with 10 attack-to-detection write-ups, custom Wazuh rules, and a purple-team write-up detecting my own Back_Door_Project. | Planned — Apr 2027 |
@@ -38,9 +38,15 @@ Projects 2 onward will each live in their own repository. Links will appear in t
 
 ```
 SOC-Analyst-Portfolio/
-├── security-fundamentals/     # Project 1 — active
+├── security-fundamentals/     # Project 1 — complete
 │   ├── tools/                 # Five Python scripts with theory + implementation
 │   ├── tests/                 # pytest suite
+│   ├── pyproject.toml
+│   └── README.md
+├── security-log-analyzer/     # Project 2 — active (Stage 1)
+│   ├── logan/                 # Parser, rules, reporter modules
+│   ├── tests/                 # pytest suite & synthetic fixtures
+│   ├── samples/               # Sanitized sample auth logs
 │   ├── pyproject.toml
 │   └── README.md
 ├── 00_AGENTS.md               # Working agreement for coding agents

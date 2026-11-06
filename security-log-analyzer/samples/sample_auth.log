@@ -1,0 +1,16 @@
+Jan 15 03:20:00 server sshd[1001]: Invalid user admin from 192.0.2.15 port 41200
+Jan 15 03:20:01 server sshd[1001]: Failed password for invalid user admin from 192.0.2.15 port 41200 ssh2
+Jan 15 03:20:02 server sshd[1002]: Connection closed by invalid user admin 192.0.2.15 port 41200 [preauth]
+Jan 15 03:20:10 server sshd[1003]: Invalid user test from 192.0.2.15 port 41202
+Jan 15 03:20:11 server sshd[1003]: Failed password for invalid user test from 192.0.2.15 port 41202 ssh2
+Jan 15 03:20:12 server sshd[1004]: Received disconnect from 192.0.2.15 port 41202:11: Bye Bye [preauth]
+Jan 15 03:21:00 server sshd[1010]: Failed password for root from 198.51.100.22 port 50100 ssh2
+Jan 15 03:21:05 server sshd[1011]: Failed password for root from 198.51.100.22 port 50102 ssh2
+Jan 15 03:21:10 server sshd[1012]: Failed password for root from 198.51.100.22 port 50104 ssh2
+Jan 15 03:21:15 server sshd[1013]: Failed password for root from 198.51.100.22 port 50106 ssh2
+Jan 15 03:21:20 server sshd[1014]: Failed password for root from 198.51.100.22 port 50108 ssh2
+Jan 15 03:22:00 server sshd[1020]: Accepted password for analyst from 10.10.0.5 port 55120 ssh2
+Jan 15 03:22:05 server sshd[1021]: Accepted publickey for backup_service from 10.10.0.10 port 48123 ssh2: RSA SHA256:examplehashkey
+Jan 15 03:22:15 server sudo: analyst : TTY=pts/0 ; PWD=/home/analyst ; USER=root ; COMMAND=/bin/systemctl status sshd
+Jan 15 03:22:30 server CRON[1030]: (root) CMD (/usr/local/bin/logcheck.sh)
+

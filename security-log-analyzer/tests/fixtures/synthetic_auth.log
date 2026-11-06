@@ -1,0 +1,11 @@
+Jan 15 03:21:04 server sshd[12345]: Failed password for root from 192.168.1.10 port 22 ssh2
+Jan 15 03:21:05 server sshd[12345]: Failed password for invalid user admin from 192.168.1.11 port 52345 ssh2
+Jan 15 03:21:06 server sshd[12346]: Accepted password for analyst from 192.168.1.50 port 49152 ssh2
+Jan 15 03:21:07 server sshd[12347]: Accepted publickey for deployer from 192.168.1.60 port 50123 ssh2: RSA SHA256:abc123xyz
+Jan 15 03:21:08 server sshd[12348]: Invalid user testguest from 10.0.0.99 port 41234
+Jan 15 03:21:09 server sshd[12349]: Received disconnect from 192.168.1.200 port 55555:11: Bye Bye [preauth]
+Jan 15 03:21:10 server sshd[12350]: Connection closed by 192.168.1.201 port 55556 [preauth]
+Jan 15 03:21:11 server CRON[9999]: (root) CMD (/usr/local/bin/backup.sh)
+Jan 15 03:21:12 server sudo: analyst : TTY=pts/0 ; PWD=/home/analyst ; USER=root ; COMMAND=/bin/cat /var/log/auth.log
+Jan 15 03:21:13 server sshd[12351]: Server listening on 0.0.0.0 port 22.
+
