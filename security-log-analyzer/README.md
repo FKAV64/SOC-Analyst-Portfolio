@@ -16,6 +16,8 @@ False Positives are legitimate activities that trigger false alerts. For example
 
 The Sliding Window Technique uses a Python `deque` to maintain log events. As new log events are processed, events older than our time window (e.g., 10 minutes) are dequeue, making event evaluation computationally cheap compared to rescanning the whole log file.
 
+Off-Hours Successful login are logins occuring outside operational hours. Can be a strong indicator of a compromised account
+
 # Security Log Analyzer (`logan`)
 
 A lightweight Linux `auth.log` analyzer that inspects OpenSSH authentication activity, identifies suspicious patterns, and outputs structured reports.
